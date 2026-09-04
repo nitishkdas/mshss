@@ -368,22 +368,30 @@ section { padding: 80px 0; }
 }
 .notice-tag.urgent { background: #fdece9; color: #c0392b; }
 
-/* ---------- Testimonials / message ---------- */
-.message-card {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 26px;
+/* ---------- Principal's message ---------- */
+.message-card-single {
+  max-width: 660px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 34px;
   background: var(--white);
   border: 1px solid var(--gray-100);
   border-radius: var(--radius);
-  padding: 30px;
+  padding: 38px;
   box-shadow: var(--shadow);
-  align-items: start;
 }
-.message-card img { border-radius: 10px; width: 140px; height: 140px; object-fit: cover; }
-.message-card h3 { font-size: 1.05rem; margin-bottom: 2px; }
-.message-card .role { color: var(--navy); font-weight: 600; font-size: 0.85rem; margin-bottom: 12px; }
-.message-card p { color: var(--gray-600); font-size: 0.94rem; }
+.message-card-single img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-lg);
+}
+.message-card-single h3 { font-size: 1.15rem; margin-bottom: 4px; }
+.message-card-single .role { color: var(--navy); font-weight: 600; font-size: 0.88rem; margin-bottom: 14px; }
+.message-card-single p { color: var(--gray-600); font-size: 0.98rem; }
 
 /* ---------- Gallery ---------- */
 .gallery-filter { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 36px; }
@@ -525,8 +533,8 @@ section { padding: 80px 0; }
   .nav-toggle { display: flex; }
   .card-grid, .card-grid.cols-4, .card-grid.cols-2, .gallery-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
-  .message-card { grid-template-columns: 1fr; }
-  .message-card img { width: 100px; height: 100px; }
+  .message-card-single { flex-direction: column; text-align: center; padding: 30px; }
+  .message-card-single img { width: 140px; height: 140px; }
   .footer-grid { grid-template-columns: 1fr; }
   .cta-band { flex-direction: column; text-align: center; }
 }

@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
     '        <li><a href="academics.html">Academics</a></li>',
     '        <li><a href="facilities.html">Facilities</a></li>',
     '        <li><a href="gallery.html">Gallery</a></li>',
-    '        <li><a href="mandatory-disclosure.html">Mandatory Disclosure</a></li>',
     '      </ul>',
     '    </div>',
     '    <div class="footer-col">',
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
     '  </div>',
     '  <div class="footer-bottom">',
     '    <span>© <span id="footer-year"></span> Morning Star Higher Secondary School. All rights reserved.</span>',
-    '    <span>Concept design, inspired in structure by peer SEBA school websites.</span>',
     '  </div>',
     '</div>'
   ].join('');
