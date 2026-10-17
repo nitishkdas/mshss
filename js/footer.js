@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
     '      <ul>',
     '        <li><a href="about.html">About Us</a></li>',
     '        <li><a href="academics.html">Academics</a></li>',
-    '        <li><a href="facilities.html">Facilities</a></li>',
     '        <li><a href="gallery.html">Gallery</a></li>',
     '      </ul>',
     '    </div>',
